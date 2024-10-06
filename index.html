@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        .backg{
+            background-image: url("photos/backg.jpg");
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="w-full h-screen flex flex-col items-center backg ">
+        <div class="h-[10%] text-right w-full items-center  ">
+            <span class="text-6xl md:hidden pr-2">≡ </span>
+            <ul class="md:pt-6 md:flex md:justify-around md:items-center md:text-2xl md:font-serif hidden ">
+                <li class="hover:bg-blue-500 hover:text-white hover:rounded-md w-[20%] text-center ">Home</li>
+                <li  class="hover:bg-blue-500 hover:text-white hover:rounded-md w-[20%] text-center ">About</li>
+                <li class="hover:bg-blue-500 hover:text-white hover:rounded-md w-[20%] text-center ">Resume</li>
+                <li class="hover:bg-blue-500 hover:text-white hover:rounded-md w-[20%] text-center ">Projects</li>
+                <li class="hover:bg-blue-500 hover:text-white hover:rounded-md w-[20%] text-center ">Contact</li>
+
+            </ul>
+
+        </div>
+        <div class="flex flex-col items-center justify-center h-[90%] pb-14 w-full ">
+            <h1 class="font-extrabold font-serif text-4xl text-center py-2 md:text-6xl ">Shafaqat Kamal</h1>
+            <p class="text-2xl text-center font-serif py-2 md:py-4 md:text-3xl">I'm an <span class="text-sky-500">Aspiring Web Developer</span></p>
+            <div class="flex gap-4 justify-center ">
+                <a class="h-7 w-7" href="https://github.com/skamal-123"><img src="./photos/github.png" alt="github"></a>
+                <a class="h-7 w-7" href="https://www.linkedin.com/in/shafaqatkamal"><img src="./photos/linkedin-logo.png" alt="linkedin"></a>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
